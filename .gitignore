@@ -1,0 +1,19 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Auto-downloaded DNN Models (ignored to keep repo lightweight)
+*.caffemodel
+*.prototxt
+
+# Saved snapshots
+snapshot_*.jpg
+capture_*.jpg
+
+
+run_command.txt
